@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_elements_przycisks",
+  "info": {
+    "displayName": "przycisk"
+  },
+  "options": {},
+  "attributes": {
+    "tytul": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "opcje": {
+      "type": "enumeration",
+      "enum": [
+        "pierwsza",
+        "druga"
+      ]
+    }
+  }
+}

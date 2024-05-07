@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_elements_cenies",
+  "info": {
+    "displayName": "ceny"
+  },
+  "options": {},
+  "attributes": {
+    "typplanu": {
+      "type": "string"
+    },
+    "koszt": {
+      "type": "string"
+    },
+    "isFeatured": {
+      "type": "boolean",
+      "default": false
+    },
+    "serwisy": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::serwis.serwis"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.przycisk"
+    }
+  }
+}

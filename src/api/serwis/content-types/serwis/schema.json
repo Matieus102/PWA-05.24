@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "serwisy",
+  "info": {
+    "singularName": "serwis",
+    "pluralName": "serwisy",
+    "displayName": "serwis"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nazwa": {
+      "type": "string"
+    },
+    "opis": {
+      "type": "string"
+    }
+  }
+}

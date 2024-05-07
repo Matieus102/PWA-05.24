@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stronas",
+  "info": {
+    "singularName": "strona",
+    "pluralName": "stronas",
+    "displayName": "Strona",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tytul": {
+      "type": "string"
+    },
+    "Opis": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Tytul"
+    },
+    "data": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.data"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.hero",
+        "blocks.rzedy",
+        "blocks.ceny",
+        "blocks.akcja"
+      ]
+    }
+  }
+}

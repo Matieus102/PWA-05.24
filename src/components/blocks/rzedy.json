@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_rzedies",
+  "info": {
+    "displayName": "Rzedy"
+  },
+  "options": {},
+  "attributes": {
+    "karta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.karta"
+    }
+  }
+}

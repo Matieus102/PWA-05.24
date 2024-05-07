@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_seo_data",
+  "info": {
+    "displayName": "Data"
+  },
+  "options": {},
+  "attributes": {
+    "DataTytul": {
+      "type": "string"
+    },
+    "Dataopis": {
+      "type": "text"
+    },
+    "Dataobraz": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
